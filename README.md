@@ -1,6 +1,6 @@
-# 123 bis - Calculateur d'Impact Fiscal (Version Corrigée et Améliorée)
+# 123 bis - modélisation de l'impact Fiscal - application article 123 bis CGI
 
-Un outil complet et fonctionnel pour simuler l'impact fiscal des revenus réputés distribués selon l'article 123 bis du Code général des impôts (CGI) français.
+Outil Google Collab fonctionnel visant à simuler l'impact fiscal des revenus réputés distribués selon l'article 123 bis du Code général des impôts (CGI). Mise à jour au 16 aout 2025.
 
 ## 📋 Description
 
