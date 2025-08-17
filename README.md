@@ -24,14 +24,14 @@ Ce projet automatise le calcul de l'impact fiscal des revenus 123 bis CGI sur l'
 
 ### Comparaison "avec/sans 123 bis"
 L'outil calcule automatiquement :
-- La situation fiscale avec le revenu 123 bis
-- La situation fiscale sans le revenu 123 bis
-- L'impact différentiel (surcoût fiscal)
+- La situation fiscale avec le revenu 123 bis du CGI
+- La situation fiscale sans le revenu 123 bis du CGI
+- L'impact différentiel (surcoût fiscal), lié à l'application du régime anti-abus de l'article 123 bis du CGI
 
 ### Intérêts et pénalités
 - Calcul des intérêts de retard (0,40%/mois avant 2018, 0,20%/mois après)
 - Majorations pour défaut de déclaration (10%, 40%, 80%)
-- Minorations possibles (30%, 50%) sur les intérêts
+- Minorations possibles (30%, 50%) sur les intérêts de retard
 
 ## 📊 Structure des données
 
@@ -80,13 +80,13 @@ Dans l'onglet `Variables_a_renseigner`, remplir pour chaque année :
 | **Parts fiscales** | Nombre de parts du foyer fiscal |
 | **Revenu 123 bis** | Montant du revenu réputé distribué |
 | **Majoration 25%** | Application de la majoration (VRAI/FAUX) |
-| **Option PFU** | Choix du prélèvement forfaitaire unique |
+| **Option PFU** | Choix du prélèvement forfaitaire unique (à compter de 2018)|
 
 ### Calculs automatiques
 
 Le système calcule automatiquement :
-- La base imposable par part
-- L'impôt brut selon le barème
+- La base imposable par part fiscale
+- L'impôt brut selon le barème progressif
 - La décote éventuelle
 - La CEHR si applicable
 - Les prélèvements sociaux
@@ -128,7 +128,7 @@ Se référer au BOFiP et aux instructions fiscales en vigueur pour les cas parti
 
 ## 🔄 Versions et mises à jour
 
-- **Version actuelle** : Barèmes mis à jour au 14/08/2025
+- **Version actuelle** : Mise à jour au 17/08/2025
 - **Prochaines évolutions** : Finalisation du module IS, ajout de nouveaux cas d'usage
 
 ## 📞 Support
@@ -141,4 +141,4 @@ Projet open source - Utilisation libre avec mention de la source.
 
 ---
 
-*Dernière mise à jour : Août 2025*
+*Dernière mise à jour : 17/08/2025*
