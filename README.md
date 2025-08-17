@@ -107,6 +107,12 @@ Le système calcule automatiquement :
 - **15,5%** pour les revenus perçus avant 2018
 - **17,2%** pour les revenus perçus à partir de 2018
 
+### Mise à jour des taux PS et intérêts de retard
+Les taux utilisés dans les calculs sont centralisés dans le fichier `param_ir.py`.
+Pour les modifier :
+1. Éditer les dictionnaires `TAUX_PS` ou `TAUX_INTERETS_RETARD` dans ce fichier avec les nouveaux taux.
+2. Relancer le notebook afin que les formules prennent en compte ces valeurs actualisées.
+
 ## ⚖️ Aspects juridiques
 
 ### Article 123 bis CGI
