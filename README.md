@@ -61,6 +61,9 @@ Le fichier génère un Google Sheets avec les onglets suivants :
 3. S'authentifier avec Google (autorisation demandée)
 4. Le Google Sheet est créé automatiquement
 
+### Script Python
+Une version scriptée est disponible dans `create_google_sheet.py` pour générer les feuilles et formules Google Sheets sans passer par le notebook.
+
 ### Saisie des données
 Dans l'onglet `Variables_a_renseigner`, remplir pour chaque année :
 - Parts fiscales
